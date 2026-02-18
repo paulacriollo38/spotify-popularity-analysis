@@ -1,12 +1,12 @@
-# 🎵 Spotify Popularity Analysis
+# Spotify Popularity Analysis
 
-## 📌 Project Overview
+## Project Overview
 This project explores the relationship between Spotify audio features and song popularity. 
 Through exploratory data analysis, feature transformation, segmentation, and regression modeling, the study evaluates how acoustic characteristics influence streaming performance.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Analyze relationships between energy, duration, and popularity.
 - Segment songs using quantile-based thresholds.
 - Standardize variables for fair comparison.
@@ -14,7 +14,7 @@ Through exploratory data analysis, feature transformation, segmentation, and reg
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 - Correlation matrix between acoustic features.
 - Energy-based segmentation (Q1 vs Q3 comparison).
 - Fixed threshold comparison (Energy > 0.6 vs ≤ 0.6).
@@ -23,7 +23,7 @@ Through exploratory data analysis, feature transformation, segmentation, and reg
 
 ---
 
-## ⚙️ Data Transformation
+## Data Transformation
 - Duration converted from milliseconds to minutes.
 - Duration categorized into 4 groups.
 - Popularity scaled for fair comparison.
@@ -31,7 +31,7 @@ Through exploratory data analysis, feature transformation, segmentation, and reg
 
 ---
 
-## 🤖 Predictive Modeling
+## Predictive Modeling
 A Linear Regression model was built using:
 
 - energy
@@ -52,7 +52,7 @@ The model explains 35% of the variance in popularity, indicating moderate predic
 
 ---
 
-## 💡 Business Implications
+## Business Implications
 - High-energy songs show significantly higher average popularity.
 - Duration alone is not a strong predictor.
 - Acoustic combinations matter more than individual features.
@@ -60,7 +60,7 @@ The model explains 35% of the variance in popularity, indicating moderate predic
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 - Python
 - Pandas
 - NumPy
@@ -70,6 +70,6 @@ The model explains 35% of the variance in popularity, indicating moderate predic
 
 ---
 
-## 👩‍💻 Author
+## Author
 Paula Vanesa Criollo Nuñez  
 Industrial Engineer | Data Analysis Enthusiast
