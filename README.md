@@ -59,6 +59,16 @@ The model explains 35% of the variance in popularity, indicating moderate predic
 - Scikit-learn
 - Google Colab
 
+## Versión en Español
+
+Este proyecto analiza un dataset de Spotify (1921–2020) con más de 28.000 canciones, 
+explorando la relación entre características musicales y popularidad mediante 
+análisis exploratorio, correlaciones y un modelo de regresión lineal.
+
+El objetivo es identificar patrones cuantitativos asociados al rendimiento musical 
+en plataformas de streaming.
+
+
 ## Author
 Paula Vanesa Criollo Nuñez  
 Industrial Engineer | Data Analysis Enthusiast
