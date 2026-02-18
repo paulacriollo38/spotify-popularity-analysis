@@ -4,6 +4,9 @@
 This project explores the relationship between Spotify audio features and song popularity. 
 Through exploratory data analysis, feature transformation, segmentation, and regression modeling, the study evaluates how acoustic characteristics influence streaming performance.
 
+Due to file size limitations, a representative sample of the dataset (5,000 observations) is included.
+
+
 ## Objectives
 - Analyze relationships between energy, duration, and popularity.
 - Segment songs using quantile-based thresholds.
