@@ -4,15 +4,11 @@
 This project explores the relationship between Spotify audio features and song popularity. 
 Through exploratory data analysis, feature transformation, segmentation, and regression modeling, the study evaluates how acoustic characteristics influence streaming performance.
 
----
-
 ## Objectives
 - Analyze relationships between energy, duration, and popularity.
 - Segment songs using quantile-based thresholds.
 - Standardize variables for fair comparison.
 - Build a regression model to predict popularity.
-
----
 
 ## Exploratory Data Analysis (EDA)
 - Correlation matrix between acoustic features.
@@ -21,15 +17,11 @@ Through exploratory data analysis, feature transformation, segmentation, and reg
 - Duration categorization (Short, Medium, Long, Very Long).
 - Scatter analysis of duration vs energy colored by popularity.
 
----
-
 ## Data Transformation
 - Duration converted from milliseconds to minutes.
 - Duration categorized into 4 groups.
 - Popularity scaled for fair comparison.
 - Numerical standardization applied where necessary.
-
----
 
 ## Predictive Modeling
 A Linear Regression model was built using:
@@ -50,15 +42,11 @@ A Linear Regression model was built using:
 
 The model explains 35% of the variance in popularity, indicating moderate predictive power.
 
----
-
 ## Business Implications
 - High-energy songs show significantly higher average popularity.
 - Duration alone is not a strong predictor.
 - Acoustic combinations matter more than individual features.
 - Data-driven segmentation can support music marketing strategies.
-
----
 
 ## Tools Used
 - Python
@@ -67,8 +55,6 @@ The model explains 35% of the variance in popularity, indicating moderate predic
 - Matplotlib / Seaborn
 - Scikit-learn
 - Google Colab
-
----
 
 ## Author
 Paula Vanesa Criollo Nuñez  
